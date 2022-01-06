@@ -23,10 +23,9 @@ span{
     background-position: top left;
 }
 .top-border{
-    border-left: 3px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
-   border-top-left-radius: 10% ;
 }
 .halfwidth{
     width: 50%;
@@ -68,6 +67,9 @@ p{
 h1{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 10px;
+  
 }
 #mission{
     background-image: linear-gradient(rgb(247, 215, 220), rgb(243, 223, 220));
@@ -119,7 +121,7 @@ footer{
 .footerclass{
     font-size: 35px;
     font-style: italic;
-    font-family: 'Moon Dance', cursive;
+    font-family: 'Lobster', cursive;
 }
 #footerid{
     color: grey;
