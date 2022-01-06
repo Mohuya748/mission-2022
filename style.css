@@ -10,7 +10,8 @@ body{
 
 }
 #title{
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 50px;
 }
 span{
@@ -41,13 +42,14 @@ p{
 .link-button{
     color: white;
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(#f12711,#f5af19);
     padding: 10px 20px;
+    border: 2px solid orange;
     border-radius: 5px;
 }
 .link-button:hover{
     color: blue;
-    background-image: linear-gradient(rgb(245, 187, 29),rgb(250, 173, 173));
+    background-image: linear-gradient(#FFEFBA,#FFFFFF);
 }
 #second-heading{
     text-align: center;
