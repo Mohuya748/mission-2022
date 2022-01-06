@@ -2,13 +2,12 @@ body{
     margin: 0px;
 }
 .background{
-    background-image: url(template.png);
+    background-image: url(images/template3.png);
 }
-
 
 .flexible-container{
     display: flex;
-    
+
 }
 #title{
     font-family: 'Luxurious Roman', cursive;
@@ -17,11 +16,16 @@ body{
 span{
     color: orange;
 }
+.top{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 .top-border{
     border-left: 3px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
-    border-start-end-radius: 2%;
+   border-top-left-radius: 10% ;
 }
 .halfwidth{
     width: 50%;
@@ -41,11 +45,15 @@ p{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.link-button:hover{
+    color: blue;
+    background-image: linear-gradient(rgb(245, 187, 29),rgb(250, 173, 173));
+}
 #second-heading{
     text-align: center;
     font-family: 'Spline Sans', sans-serif;
 }
-.pera{
+.section{
     padding:1% 10% 5% 10% ;
 }
 .illustrator img{
@@ -81,11 +89,23 @@ h2{
     font-size: 50px;
     font-family: cursive;
 }
-.third-img img{
+.third{
+    background-image: url(images/shape-2.png);
+    background-size: 150px;
+    background-position:top left;
+    background-repeat: no-repeat;
+}
+.third img{
     width: 80%;
 }
-.fourth-img img{
-    width: 70%;
+.fourth{
+    background-image: url(images/dream-bg.png);
+    /* background-size: 150px; */
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+.fourth img{
+    width: 80%;
     margin: 10%;
 }
 footer{
@@ -114,7 +134,8 @@ footer{
     font-size: 60px;
 }
 .food-image img{
-    width: 200px;
+    width: 500px;
+    height: 550px;
     margin: 15px;
 }
 .Hungry{
@@ -126,4 +147,29 @@ footer{
     font-size: 30px;
     font-family: 'Lobster', cursive;
     padding-left: 10%;
+}
+.FoodApp{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position:top left;
+}
+.input{
+    background-image: linear-gradient(rgb(247, 240, 140),rgba(245, 242, 80, 0.808));
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.input input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin: 11px auto;
+        font-size: 25px;
+        cursor: pointer;       
 }
